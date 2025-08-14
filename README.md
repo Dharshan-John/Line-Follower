@@ -31,9 +31,9 @@ The robot makes tiny adjustments due to the corressponding changes in Kp,Kc and 
 
 Upload the code from Line-Follower/Pathfinder.ino using Arduino IDE.
 
-If it’s zig-zagging too much → lower P or increase D.
+If it’s zig-zagging too much → lower Kp or increase Kd.
 
-If it’s slow to correct → increase P.
+If it’s slow to correct → increase Kp.
 
-If it always drifts off in the same direction → add some I.
+If it always drifts off in the same direction → add some Ki.
 
