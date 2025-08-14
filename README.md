@@ -21,7 +21,7 @@ A simple chassis (perforated board) to hold it all together
 
 # Basic Mechanism of the Line Follower Robot
 
-The sensors look at the ground and figure out where the black line is.
+The QTR sensor tells you the reflectance value of the black and white line where black has low reflectance value and white has high reflectance value.
 
 Arduino figures out how far off the robot is from the center of the line.
 
