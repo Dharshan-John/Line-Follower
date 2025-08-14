@@ -3,7 +3,7 @@ It uses Arduino Nano for the brain, QTR-8A sensors for “eyes,” and a PID con
 
 I built it to learn more about robotics, sensors, and control systems, and also because… well… watching it zoom around the track is just plain fun.
 
-🔧 What’s Inside
+# What’s Inside
 
 Arduino Nano – the robot’s brain
 
