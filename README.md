@@ -21,21 +21,17 @@ A simple chassis (perforated board) to hold it all together
 
 # Basic Mechanism of the Line Follower Robot
 
-The QTR sensor tells you the reflectance value of the black and white line where black has low reflectance value and white has high reflectance value.
+Calibrating the sensors so it knows what’s “black” and what’s “white.”
 
-Arduino figures out how far off the robot is from the center of the line.
+The QTR sensor tells you the reflectance value of the black and white line where black has low reflectance value and white has high reflectance value. Arduino uses the reflectance values given by the sensor to evaluate how far off is the bot from the center line.
 
-The PID control system decides how much to speed up or slow down each motor to correct the error.
+The PID control system decides how much to speed up or slow down each motor to correct the positional error of the bot from the center line.
 
-The robot makes tiny adjustments and stays glued to the track.
+The robot makes tiny adjustments due to the corressponding changes in Kp,Kc and Kd values in the PID controller which helps it to stay on course and make proper turns.
 
 Upload the code from Line-Follower/Pathfinder.ino using Arduino IDE.
-
-Calibrate the sensors so it knows what’s “black” and what’s “white.”
 
 If it’s zig-zagging too much → lower P or increase D.
 If it’s slow to correct → increase P.
 If it always drifts off in the same direction → add some I.
-
-![WhatsApp Image 2025-08-14 at 20 15 00_8583393d](https://github.com/user-attachments/assets/dce4cc47-3b86-4fee-9cc1-1f37435bfa77)
 
