@@ -1,7 +1,7 @@
 This is my line follower robot project — a small but fast bot that can follow a black track on a white surface all by itself.
 It uses Arduino Nano for the brain, QTR-8A sensors for “eyes,” and a PID control system to keep it smooth and steady.
 
-I built it to learn more about robotics, sensors, and control systems, and also because… well… watching it zoom around the track is just plain fun.
+I built it to learn more about robotics, sensors, and control systems.
 
 # What’s Inside
 
