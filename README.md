@@ -36,3 +36,5 @@ Calibrate the sensors so it knows what’s “black” and what’s “white.”
 If it’s zig-zagging too much → lower P or increase D.
 If it’s slow to correct → increase P.
 If it always drifts off in the same direction → add some I.
+![WhatsApp Image 2025-08-14 at 20 15 00_8583393d](https://github.com/user-attachments/assets/dce4cc47-3b86-4fee-9cc1-1f37435bfa77)
+
