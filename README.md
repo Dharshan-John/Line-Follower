@@ -1,17 +1,17 @@
-This is my line follower robot project — a small but fast bot that can follow a black track on a white surface all by itself.
-It uses Arduino Nano for the brain, QTR-8A sensors for “eyes,” and a PID control system to keep it smooth and steady.
+-> This is my first line follower robot project — a small but fast bot that can follow a black track on a white surface all by itself.
+   It uses Arduino Nano for the brain, QTR-8A sensors for “eyes,” and a PID control system to keep it smooth and steady.
 
 I built it to learn more about robotics, sensors, and control systems.
 
 # What’s Inside
 
-Arduino Nano – the robot’s brain
+Arduino Nano – the robot's brain
 
-QTR-8 A reflectance sensor array – detects the track
+QTR-8 A reflectance sensor array – detects the track using the IR Sensors
 
-TB6612 motor driver – Tells the motors how fast to spin
+TB6612 motor driver – High switching H-bridge based on MOSFET to handle motor directions
 
-N20 12V 600 RPM motors – Moves the robot forward
+N20 12V 600 RPM motors – It is a micro-sized, brushed DC gear motor
 
 44mm wheels + caster wheel – Lets it roll freely
 
