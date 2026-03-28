@@ -3,7 +3,7 @@
 
    I built it to learn more about robotics, sensors, and control systems.
 
-# What’s Inside
+# Realization using Hardware
 
 Arduino Nano – The robot's brain
 
